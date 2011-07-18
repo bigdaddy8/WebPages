@@ -1,0 +1,43 @@
+<html>
+<head>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"> </script>
+    <script type="text/javascript">
+	    $(document).ready(function ()
+		  {
+			  $('#hidebutton').bind('click.tocbot', function() 
+				  {
+					  $('#tree').slideToggle();
+				  });
+		  });
+  </script>
+
+<!-- <script src= "jquery.jstree.js" type= "text/javascript"></script> -->
+</head>
+
+
+<body style="background-color:#8F8FBD">
+  <table border =0>
+    <td width=90%> 
+      <tr =100%>
+      <div id= "tree">
+        <align=top, left>
+          <form role="search" method="get" id="searchform" action="www.google.com" > 
+            <div><label class="screen-reader-text" for="s"></label> 
+              <input style="width:180px; background: white; color: grey; text-align: center; border: 2px solid #d1d1d1;" type="text" onFocus="this.value=" value="Search" name="s" id="s" /> 
+            </div> 
+          </form>
+      </div>
+      </tr>
+  </td>
+  <td>
+    <tr =100%  align = "right">
+      <input type= "button" id="hidebutton" value = "hide" >
+    </align> </tr>
+  </td>
+   
+
+</table>
+
+
+</body>
+</html>
